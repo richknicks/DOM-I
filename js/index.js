@@ -52,6 +52,13 @@ navText[3].textContent = 'Features';
 navText[4].textContent = 'About';
 navText[5].textContent = 'Contact';
 navText.forEach(color => color.style.color = 'green');
+document.createElement('a');
+const myButton = document.querySelector('button');
+myButton.textContent = 'Get Started';
+const ctaText = document.querySelector('h1');
+ctaText.textContent = "DOM IS AWESOME";
+
+
 
 
 
