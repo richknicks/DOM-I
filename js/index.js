@@ -57,8 +57,20 @@ const myButton = document.querySelector('button');
 myButton.textContent = 'Get Started';
 const ctaText = document.querySelector('h1');
 ctaText.textContent = "DOM IS AWESOME";
-
-
-
-
-
+const header4 = document.querySelectorAll('h4');
+header4[0].textContent = 'Features';
+header4[1].textContent = 'About';
+header4[2].textContent = 'Services';
+header4[3].textContent = 'Product';
+header4[4].textContent = 'Vision';
+header4[5].textContent = 'Contact';
+const para = document.querySelectorAll('p');
+para[0].textContent = 'Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[1].textContent = 'About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.'; 
+para[2].textContent = 'Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[3].textContent = 'Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[4].textContent = 'Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.';
+para[5].textContent = '123 Way 456 Street';
+para[6].textContent = 'Somewhere, USA';
+para[7].textContent = 'sales@greatidea.io';
+para[8].textContent = 'Copyright Great Idea! 2018';
