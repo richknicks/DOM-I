@@ -63,10 +63,10 @@ const navBox = document.querySelector("nav");
 const firstLink = document.createElement("a");
 firstLink.textContent = "Home";
 navBox.prepend(firstLink);
-
 const endLink = document.createElement("a");
 endLink.textContent = "End";
 navBox.appendChild(endLink);
+
 const navLinkColor = document.querySelectorAll("a");
 navLinkColor.forEach(color => color.style.color = "green");
 
@@ -99,3 +99,11 @@ para[5].textContent = "123 Way 456 Street";
 para[6].textContent = "Somewhere, USA";
 para[7].textContent = "sales@greatidea.io";
 para[8].textContent = "Copyright Great Idea! 2018";
+
+const pColor = document.querySelectorAll('p');
+pColor.forEach (color => color.style.color = 'red');
+const pFontSize = document.querySelectorAll('p');
+pFontSize.forEach(fontSize => fontSize.style.fontSize = '1.5rem');
+
+
+
